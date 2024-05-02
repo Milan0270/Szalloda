@@ -55,7 +55,12 @@ input{text-decoration: none;}
           width: 300px;  
           background-color: rgb(255, 255, 255);
           border-radius: 10px;}
-#kepek{width: 700px;}
+#kepek{margin: auto;
+      width: 40%;
+      height:max-content;
+      margin-top:auto;
+      margin-bottom: auto;}
+
 input{background-color:rgb(239, 239, 239);
       border: none;
       border-bottom: 2px solid black;
@@ -72,3 +77,5 @@ input{background-color:rgb(239, 239, 239);
       border: none;
       border-radius: 3px;}
 .foglalas2{margin-left: 8%;}
+
+
