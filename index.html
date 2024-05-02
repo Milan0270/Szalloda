@@ -14,20 +14,57 @@
         <b>Hotel Iris</b>
         <div class="menuelemek">
         <a href="#kezdolap">Kezdőlap</a>
-        <a href="#aloldal">Aloldal</a>
-        <a href="#aloldal1">Aloldal1</a>
+        <a href="#aloldal">Szobafoglalás</a>
+        <a href="#aloldal1">Áraink</a>
         </div>
     </nav>
     </div>
     <div class="content">
-    <!-- 
-        All the divs with the content you want to serve. Notice page1 sits last. 
-        This is important for the CSS to work.
-    -->
-    <div id="kezdolap" class="page">Kezdolap</div>
-    <div id="aloldal" class="page">Aloldal</div>
+            <!-- 
+                All the divs with the content you want to serve. Notice page1 sits last. 
+                This is important for the CSS to work.
+            -->
+            <div id="kezdolap" class="page">
+                <div class="dark"><h2>Kezdőlap</h2></div>
+                <div class="tartalom"></div>
 
-    <div id="aloldal1" class="page">[some content]</div>
+            </div>
+            <div id="aloldal" class="page">
+                <div class="dark"><h2>Szobafoglalás</h2></div>
+                <div class="row">
+                    <div class="tartalom">
+                        <br>
+                        <div id="foglalas" class="col-4">
+                        <form>
+                            <div class="foglalas2">
+                                <label>Keresztnév:</label><br><input type="text" placeholder="Pl.: János">
+                                <br><label>Vezetéknév:</label><br><input type="text" placeholder="Pl.: Kiss">
+                                <label>Felnőttek száma:</label><br><input type="number" min="1">
+                                <label>Gyermekek száma:</label><br><input type="number" min="0">
+                                <br><label>Érkezés időpontja:</label><br><input type="date" value="2024-06-01" min="2024-05-15" max="2024-12-31">
+                                <br><label>Távozás időpontja:</label><br><input type="date" value="2024-06-10" min="2024-05-16" max="2024-12-31"><br><br>
+                                <input class="gomb" type="submit" value="Foglalás">
+                            </div>
+                        </form>
+                        </div>
+                        <div id="kepek" class="col-8">
+
+
+
+
+
+
+
+                            
+                        </div>
+                    </div>
+                </div>   
+            </div>
+            <div id="aloldal1" class="page">
+                <div class="dark"><h2>Áraink</h2></div>
+                <div class="tartalom"></div>
+            
+            </div>
     </div>
 </body>
 </html>
