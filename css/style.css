@@ -1,6 +1,6 @@
 body{background-image: url("../img/hatter.jpg");
                         background-repeat: no-repeat;
-                        background-size:  100%;}
+                        background-size:  cover;}
 /* This hides all pages */
 .page {
     display: none;
@@ -29,11 +29,11 @@ body{background-image: url("../img/hatter.jpg");
 }
 .navbar{width: 90%;
         margin: auto;
-        background-color:rgba(240, 248, 255, 0.815)
+        background-color:rgba(240, 248, 255, 0.5)
         }
 .content{width: 90%;
          margin: auto;
-         margin-top: 5px;}
+         margin-top: 0.5%;}
       
 nav a{text-decoration: none;
   padding: 10px;
@@ -43,22 +43,25 @@ nav a{text-decoration: none;
 b{padding-left: 1rem;
   padding-right: 3rem;}
 
-a:hover{background-color: grey;
+nav a:hover{color: grey;
        text-decoration: none;}
-.menuelemek{float: right;}
+.menuelemek{float: right;
+            padding-top: 20px;}
 .dark{background-color: rgba(101, 101, 101, 0.66);}
-.tartalom{background-color:rgba(240, 248, 255, 0.815);}
+.tartalom{background-color:rgba(240, 248, 255, 0.5);}
 input{text-decoration: none;}
 #foglalas{margin-left: 10px;
           padding-top: 10px;
           padding-bottom: 10px;
-          width: 300px;  
+          width: 320px;  
+          height: 390px;
+          margin: auto;
           background-color: rgb(255, 255, 255);
           border-radius: 10px;}
 #kepek{margin: auto;
-      width: 40%;
+      width: 600px;
       height:max-content;
-      margin-top:auto;
+      margin-top: auto;
       margin-bottom: auto;}
 
 input{background-color:rgb(239, 239, 239);
@@ -77,5 +80,28 @@ input{background-color:rgb(239, 239, 239);
       border: none;
       border-radius: 3px;}
 .foglalas2{margin-left: 8%;}
+footer{width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+      background-color: rgba(101, 101, 101, 0.66);
+      margin-top: 0.5%;
+      text-align: justify;}
+.logo2{width: 15%;}
 
-
+.fa{color:rgb(39, 39, 39);}
+.sm li{display: inline-block;
+       color:black;
+        padding-left: 93px;
+        padding-right: 93px}
+.sm .fa:hover{color: grey;}
+.sm{list-style-type: none;
+    font-size: 30pt;
+    }
+.info li{display: inline-block;
+         color:black;
+         padding-left: 40px;
+         padding-right: 40px;}
+.info p{text-decoration: none;
+        color: rgb(39, 39, 39);}
+.logo{width: 100px;}
+    
