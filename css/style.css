@@ -29,7 +29,7 @@ body{background-image: url("../img/hatter.jpg");
 }
 .navbar{width: 90%;
         margin: auto;
-        background-color:rgba(240, 248, 255, 0.5)
+        background-color:rgba(240, 248, 255, 0.5);
         }
 .content{width: 90%;
          margin: auto;
@@ -62,7 +62,8 @@ input{text-decoration: none;}
       width: 600px;
       height:max-content;
       margin-top: auto;
-      margin-bottom: auto;}
+      margin-bottom: auto;
+        }
 
 input{background-color:rgb(239, 239, 239);
       border: none;
@@ -104,4 +105,16 @@ footer{width: 90%;
 .info p{text-decoration: none;
         color: rgb(39, 39, 39);}
 .logo{width: 100px;}
-    
+.leiras{text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;}
+.leiras2{font-weight:500;
+        color:rgb(46, 26, 2);}
+.leiras b{font-weight: 600;
+            color: rgb(78, 78, 78);}
+.javaslatok{list-style-type: none;
+            font-weight: 450;}
+#link{font-weight: 600;
+     text-decoration: none;
+     color: rgb(100, 0, 0);}
