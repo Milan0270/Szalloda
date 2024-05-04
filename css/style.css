@@ -87,7 +87,7 @@ footer{width: 90%;
       background-color: rgba(101, 101, 101, 0.66);
       margin-top: 0.5%;
       text-align: justify;}
-.logo2{width: 15%;}
+.logo2{width: 300px;}
 
 .fa{color:rgb(39, 39, 39);}
 .sm li{display: inline-block;
@@ -114,7 +114,8 @@ footer{width: 90%;
 .leiras b{font-weight: 600;
             color: rgb(78, 78, 78);}
 .javaslatok{list-style-type: none;
-            font-weight: 450;}
+            font-weight: 450;
+            text-align: center}
 #link{font-weight: 600;
      text-decoration: none;
      color: rgb(100, 0, 0);}
