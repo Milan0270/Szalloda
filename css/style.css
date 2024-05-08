@@ -121,9 +121,11 @@ footer{width: 90%;
      color: rgb(100, 0, 0);}
 .kep{width: 400px;
       height: 299px;}
-.row{padding-top: 20px;
-      padding-left: 30px;
-      margin: auto;}
+.row{}
 
 .foto{width: 400px;
       height: 299px;}
+
+p{text-align: justify;}
+
+#alairas{font-weight: bold;}
