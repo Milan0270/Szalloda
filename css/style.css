@@ -119,8 +119,8 @@ footer{width: 90%;
 #link{font-weight: 600;
      text-decoration: none;
      color: rgb(100, 0, 0);}
-.kep{width: 400px;
-      height: 299px;}
+.kep{width: 100%;
+      height: auto;}
 
 .foto{width: 320px;
       height: 250px;}
