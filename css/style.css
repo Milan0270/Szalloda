@@ -54,7 +54,7 @@ input{text-decoration: none;}
           padding-top: 10px;
           padding-bottom: 10px;
           width: 320px;  
-          height: 390px;
+          height: 400px;
           margin: auto;
           background-color: rgb(255, 255, 255);
           border-radius: 10px;}
@@ -122,8 +122,9 @@ footer{width: 90%;
 .kep{width: 100%;
       height: auto;}
 
-.foto{width: 320px;
-      height: 250px;}
+.foto{width: 80%;
+      height: auto;
+      max-height: auto;}
 
 #rolunk p{text-align: justify;}
 
