@@ -121,11 +121,10 @@ footer{width: 90%;
      color: rgb(100, 0, 0);}
 .kep{width: 400px;
       height: 299px;}
-.row{}
 
-.foto{width: 400px;
-      height: 299px;}
+.foto{width: 320px;
+      height: 250px;}
 
-p{text-align: justify;}
+#rolunk p{text-align: justify;}
 
 #alairas{font-weight: bold;}
