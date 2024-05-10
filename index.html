@@ -100,20 +100,20 @@
                     <div class="row mx-0 py-3" style="background-color: rgba(59, 59, 59, 0.336);;">
                         <br>
                         <div id="foglalas" class="col-md-10">
-                        <form>
+                          <form action="connect.php" method="post">
                             <div class="foglalas2">
-                                <label>Keresztnév:</label><br><input type="text" placeholder="Pl.: János">
-                                <br><label>Vezetéknév:</label><br><input type="text" placeholder="Pl.: Kiss">
-                                <label>Felnőttek száma:</label><br><input type="number" min="1">
-                                <label>Gyermekek száma:</label><br><input type="number" min="0">
-                                <br><label>Érkezés időpontja:</label><br><input type="date" value="2024-06-01" min="2024-05-15" max="2024-12-31">
-                                <br><label>Távozás időpontja:</label><br><input type="date" value="2024-06-10" min="2024-05-16" max="2024-12-31"><br><br>
-                                <select style="background-color: white;border: none;border-bottom: 2px solid black;width: 250px;border-top-left-radius: 3px;border-top-right-radius: 3px;">
-                                  <option value="">Alap szoba</option>
-                                  <option value="">Prémium szoba</option>
-                                  <option value="">Prémium+ szoba</option>
-                                </select>
-                                <input style="margin-top: 20px;" class="gomb" type="submit" value="Foglalás">
+                              <label>Keresztnév:</label><br><input id="firstName" name="firstName" type="text" placeholder="Pl.: János">
+                              <br><label>Vezetéknév:</label><br><input id="lastName" name="lastName" type="text" placeholder="Pl.: Kiss">
+                              <label>Felnőttek száma:</label><br><input id="adults" name="adults" type="number" min="1">
+                              <label>Gyermekek száma:</label><br><input id="child" name="child" type="number" min="0">
+                              <br><label>Érkezés időpontja:</label><br><input type="date" id="date1" name="date1"  min="2024-05-15" max="2024-12-31">
+                              <br><label>Távozás időpontja:</label><br><input type="date" id="date2" name="date2"  min="2024-05-16" max="2024-12-31"><br><br>
+                              <select name="room" id="room" style="margin-bottom: 15px; background-color: white; border: none;border-bottom: 2px solid black;width: 250px;border-top-left-radius: 3px;border-top-right-radius: 3px;">
+                                  <option value="1">Alap szoba</option>
+                                  <option value="2">Prémium szoba</option>
+                                  <option value="3">Prémium+ szoba</option>
+                              </select>
+                              <input class="gomb" type="submit" value="Foglalás">
                             </div>
                         </form>
                         </div>
