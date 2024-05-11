@@ -8,7 +8,7 @@
     $room = $_POST['room'];
 
 
-    $conn = new mysqli('localhost:3307','root','','szalloda');
+    $conn = new mysqli('%','Milan0270','vDYbrv4G4IEBeklE','szalloda');
         if($conn->connect_error){
             echo "$conn->connect_error";
             die("Connection Failed : ". $conn->connect_error);
